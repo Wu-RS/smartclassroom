@@ -1,8 +1,7 @@
 import Card from "@/components/Card.tsx";
 import { useState } from "react";
 import {CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis} from "recharts";
-import { getAlerts, getFilteredAlerts, type Alert } from "../../../shared-data/shared-data";
-
+import { getAlerts, getFilteredAlerts, type Alert } from "../../shared-data/shared-data";
 function PopupWindow(alert: Alert){
     return (
         <div className="width-fill-up arrangement-bilateral early-waring-popup-window">
