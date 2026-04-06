@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {PolarAngleAxis, PolarGrid, Radar, RadarChart} from "recharts";
 import Card from "@/components/Card.tsx";
-import { getStudents, getStudentById, type Student } from "../../../shared-data/shared-data";
+import { getStudents, getStudentById, type Student } from "../../shared-data/shared-data";
 
 function PortfolioHeader(student: Student) {
     return (
