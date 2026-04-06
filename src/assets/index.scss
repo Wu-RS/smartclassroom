@@ -1,0 +1,37 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+}
+#root { display: flex; }
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 15px;
+}
+
+.arrangement-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.arrangement-bilateral {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  > div {
+    flex-grow: 1;
+    margin: 10px;
+  }
+}
+
+.width-fill-up { width: 100%; }
+.subtitle { color: gray; }
