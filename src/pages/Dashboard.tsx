@@ -8,7 +8,7 @@ import {
     getSynchronizedData,
     startSynchronizedData,
     type ClassroomData
-} from "../../../shared-data/synchronized-data";
+} from "../../shared-data/synchronized-data";
 
 // 主组件
 function Message() {
